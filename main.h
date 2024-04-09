@@ -13,6 +13,7 @@ char *specifier;
 int (*f)(va_list args);
 } spc_dt;
 
+int printf_char(val_list val);
 int _write(char c);
 int _printf(const char *format, ...);
 int _print_a_char(va_list args);
